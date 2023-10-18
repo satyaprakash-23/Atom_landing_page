@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@500&family=Tilt+Neon&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#center{
+    width: 60%;
+    height: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+ 
+.imgbox{
+    width: 200px;
+    height: 270px;
+    /* background-color: yellow; */
+    overflow: hidden;
+    position: absolute;
+}
+
+.imgbox img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translateY(100%);
+}
+
+h1{
+    font-family: 'Tilt Neon', sans-serif;
+    font-size: 110px;
+}
+    
+.center img{
+    object-fit: cover;
+    position: relative;
+}
+
+nav{
+    background-color: rgb(36, 18, 138);
+    color: white;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    padding-left: 10px;
+    font-family: 'Tilt Neon', sans-serif;
+    font-weight: bold;
+}
+
+body{
+    background-color: #98E4FF;
+}
